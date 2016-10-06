@@ -1,0 +1,16 @@
+set number
+syntax on
+
+set tabstop=4
+set showmatch
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
+set list listchars=tab:▸\ ,trail:·
+
+"highlight Tab ctermbg=none guibg=none
+"highlight Space ctermbg=123 guibg=59
+
+set cursorline
+set mouse=a
