@@ -13,4 +13,7 @@ set list listchars=tab:▸\ ,trail:·
 "highlight Space ctermbg=123 guibg=59
 
 set cursorline
+
+
+filetype indent plugin on
 autocmd Filetype python set tabstop=2
