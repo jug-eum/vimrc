@@ -1,4 +1,5 @@
 filetype indent plugin on
+set encoding=utf-8
 
 autocmd Filetype python set tabstop=2
 autocmd Filetype python set softtabstop=2
